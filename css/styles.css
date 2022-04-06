@@ -3,11 +3,11 @@
     --title-text-color:#212121;
     --accent-color:#2196F3;
     --bcg-color: #2F303A;
+    --section-text-color :#FFFFFF;
+    --background-fon-color :#F5F4FA;
 }
 body {
-    background-color: #FFFFFF;
     color: var(--primory-text-color);
-
     font-family: Roboto, sans-serif;
     letter-spacing:0.03em ;
 }
@@ -16,67 +16,56 @@ body {
     list-style: none;
 }
 
-/* button */
-.button-color {
-    color:#ffffff;
-
-    background-color:#2196F3 ;
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.8;
-}
-
 /* Активная страница */
 .header-nav .link.current {
-    color: #2196F3;
+    color:var(--accent-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height:1.14;
+    letter-spacing: 0.02em;
 }
+
+
 /* Верхняя линия */
-
-
 .header-nav {
     background-color:#FFFFFF;
     }
 .web-logo {
     color:var(--accent-color);
-
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height:1.20;
     
 }
 
 .studio-logo {
     color: #000000;
-
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height:1.20;
 }
 
 .header-nav .link {
-    color: #212121;
-
-    font-family: 'Roboto';
+    color:var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height:1.2;
+    letter-spacing: 0.02em;
     
 }
 .header-nav .link:hover,
 .header-nav .link:focus {
-color:var(--accent-color) ;
+    color:var(--accent-color) ;
 }
 
 .header-contacts a {
     color: #757575;
-
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height:1.2;
+    letter-spacing: 0.02em;
     }
 
 .header-contacts a:hover,
@@ -88,40 +77,66 @@ color:var(--accent-color) ;
 
 .hero {
     background-color: var(--bcg-color);
-    color: #FFFFFF;
-
-    font-family: 'Roboto';
-    font-weight: 700;
+ }
+.hero-text {
+    color:var(--section-text-color);
+    font-weight: 900;
     font-size: 44px;
     line-height:1.36;
     text-align: center;
+    letter-spacing: 0.06em;
+}
+/* button */
+.button-color {
+    color:var(--section-text-color);
+    background-color: var(--accent-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 
 /* Особенности */
-.section > h2 {
-    color: #212121;
+.section h3 {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height:1.14;
+}
+.section p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height:1.71;
+}
 
-    font-family: 'Roboto';
+/* Чем мы занимаемся */
+.section-work h2 {
+    color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height:1.16;
     text-align: center;
 }
 
-.section-title {
-  color:var(--title-text-color) ;
-  
-font-family: 'Roboto';
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-}
 /* Наша команда */
+.section-developers {
+    background-color:var(--background-fon-color) ;
+}
 .developers-team {
     color: var(--title-text-color);
 
-    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height:1.16;
+    text-align: center;
+}
+
+.section-developers h2 {
+    color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height:1.16;
@@ -129,28 +144,44 @@ line-height: 1.14;
 }
 .developers > h3 {
     color: var(--title-text-color);
-
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
 }
 
-.developers-prof {
-    font-family: 'Roboto';
-    font-style: normal;
+.developers p {
     font-weight: 400;
     font-size: 16px;
-    line-height:1.18;
-
+    line-height: 19px;
 }
-
-
 
 /* Подвал */
 .footer {
     background-color:var(--bcg-color);
-    color: #FFFFFF;
+
 }
+
+.footer-adres {
+    color:var(--section-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height:1.71;
+}
+
+.footer-contacts a {
+    color:rgba(255, 255, 255, 0.6) ;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.footer-contacts a:hover,
+.footer-contacts a:focus {
+    color: var(--accent-color);
+}
+
+address {
+    font-style: normal;
+}
+
 
