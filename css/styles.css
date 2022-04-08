@@ -96,10 +96,11 @@ body {
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height:1.8;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
 }
 
 .button-color:hover,
@@ -115,11 +116,12 @@ body {
     font-size: 14px;
     line-height:1.14;
 }
+/* не уверен надо ли этот силектор
 .section p {
     font-weight: 400;
     font-size: 14px;
     line-height:1.71;
-}
+} */ 
 
 /* Чем мы занимаемся */
 .section-work h2 {
@@ -160,7 +162,7 @@ body {
 .developers p {
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height:1.18px;
 }
 
 /* Подвал */
@@ -180,7 +182,7 @@ body {
     color:rgba(255, 255, 255, 0.6) ;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height:1.71;
 }
 
 .footer-contacts a:hover,
@@ -208,6 +210,7 @@ address {
     line-height:1.6;
     text-align: center;
     letter-spacing: 0.03em;
+    cursor: pointer;
 }
 .btn-portfolio:hover,
 .btn-portfolio:focus
