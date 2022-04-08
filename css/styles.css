@@ -33,21 +33,23 @@ body {
 .header-nav {
     background-color:#FFFFFF;
     }
+
 .web-logo {
     color:var(--accent-color);
-    font-family: Raleway, sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height:1.20;
-    
 }
 
 .studio-logo {
     color: #000000;
-    font-family: Raleway, sans-serif;
+}
+.logo {
+    font-family: Raleway,
+    sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height:1.20;
+}
+.studio-footer {
+    color:#FFFFFF;
 }
 
 .header-nav .link {
@@ -88,6 +90,7 @@ body {
     line-height:1.36;
     text-align: center;
     letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 /* button */
 .button-color {
@@ -115,13 +118,14 @@ body {
     font-weight: 700;
     font-size: 14px;
     line-height:1.14;
+    text-transform: uppercase;
 }
-/* не уверен надо ли этот силектор
+
 .section p {
     font-weight: 400;
     font-size: 14px;
     line-height:1.71;
-} */ 
+} 
 
 /* Чем мы занимаемся */
 .section-work h2 {
