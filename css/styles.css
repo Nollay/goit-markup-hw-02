@@ -15,6 +15,9 @@ body {
 .list {
     list-style: none;
 }
+.href {
+    text-decoration :none;
+}
 
 /* Активная страница */
 .header-nav .link.current {
@@ -99,6 +102,11 @@ body {
     letter-spacing: 0.06em;
 }
 
+.button-color:hover,
+.button-color:focus {
+    background-color: rgba(24, 140, 232, 1);
+}
+
 
 /* Особенности */
 .section h3 {
@@ -177,11 +185,47 @@ body {
 
 .footer-contacts a:hover,
 .footer-contacts a:focus {
-    color: var(--accent-color);
+    color:var(--section-text-color);
 }
 
 address {
     font-style: normal;
 }
 
+/* Portfolio-css */
+/* Фильтр */
+:root{
+    --text-color-btn :rgba(33, 33, 33, 1);
+    --background-color-btn :rgba(245, 244, 250, 1);
+}
+
+.btn-portfolio {
+    color: var(--text-color-btn);
+    background-color: var(--background-color-btn);
+    font-family:inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height:1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.btn-portfolio:hover,
+.btn-portfolio:focus
+  {
+background-color: var(--accent-color);
+}
+
+.portfolio {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height:2;
+    letter-spacing: 0.06em;
+}
+.portfolio-text {
+    color: var(--primory-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height:1.8;
+}
 
